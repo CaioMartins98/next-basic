@@ -6,5 +6,5 @@ export function middleware(req: NextRequest, ev: NextFetchEvent) {
 
   //chamar alguma API
 
-  return NextResponse.redirect('http://localhost:3000/')
+  return NextResponse.redirect('http://localhost:3000/');
 }
